@@ -1,634 +1,771 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <!--meta tags-->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="description" content="Sitio web de Homero Resendiz" />
-    <meta
-      name="keywords"
-      content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern"
-    />
-    <meta name="author" content="Homero Resendiz" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!--Template name-->
-    <title>Homero Resendiz</title>
+<head>
+  <!--meta tags-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="Sitio web de Homero Resendiz" />
+  <meta name="keywords" content="onepage, developer, resume, cv, personal, portfolio, personal resume, clean, modern" />
+  <meta name="author" content="Homero Resendiz" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!--Favicon-->
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="favicon/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
+  <!--Template name-->
+  <title>Homero Resendiz</title>
 
-    <!--Font Awesome css-->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+  <link rel="manifest" href="favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
 
-    <!--Kit Fontawesome 5.15.2v-->
-    <script
-      src="https://kit.fontawesome.com/c6fbcbe5dd.js"
-      crossorigin="anonymous"
-    ></script>
+  <!--Font Awesome css-->
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-    <!--Bootstrap css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!--Kit Fontawesome 5.15.2v-->
+  <script src="https://kit.fontawesome.com/c6fbcbe5dd.js" crossorigin="anonymous"></script>
 
-    <!--Animated headline css-->
-    <link rel="stylesheet" href="css/jquery.animatedheadline.css" />
+  <!--Bootstrap css-->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <!--Owl carousel css-->
-    <link rel="stylesheet" href="css/owl.carousel.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.css" />
+  <!--Animated headline css-->
+  <link rel="stylesheet" href="css/jquery.animatedheadline.css" />
 
-    <!--Magnific popup css-->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
+  <!--Owl carousel css-->
+  <link rel="stylesheet" href="css/owl.carousel.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.css" />
 
-    <!--line icon css-->
-    <link rel="stylesheet" href="css/line-icons.min.css" />
+  <!--Magnific popup css-->
+  <link rel="stylesheet" href="css/magnific-popup.css" />
 
-    <!--Theme css-->
-    <link rel="stylesheet" href="css/style.css" />
+  <!--line icon css-->
+  <link rel="stylesheet" href="css/line-icons.min.css" />
 
-    <!--Responsive css-->
-    <link rel="stylesheet" href="css/responsive.css" />
-  </head>
-  <body>
-    <!--Preloader starts-->
+  <!--Theme css-->
+  <link rel="stylesheet" href="css/style.css" />
 
-    <div class="loader_bg"><div class="loader"></div></div>
+  <!--Responsive css-->
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
 
-    <!--Preloader ends-->
+<body>
+  <!--Preloader starts-->
 
-    <!--Navigation area starts-->
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
 
-    <header class="nav-area navbar-fixed-top">
-      <div class="container">
-        <div class="row">
-          <!--main menu starts-->
+  <!--Preloader ends-->
 
-          <div class="col-md-12">
-            <div class="main-menu">
-              <div class="navbar navbar-cus">
-                <div class="navbar-header">
-                  <a href="/" class="navbar-brand"
-                    ><span class="logo">Homero</span></a
-                  >
-                  <!--change logo name-->
-                  <button
-                    type="button"
-                    class="navbar-toggle"
-                    data-toggle="collapse"
-                    data-target=".navbar-collapse"
-                  >
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                </div>
+  <!--Navigation area starts-->
 
-                <div class="navbar-collapse collapse">
-                  <nav>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li class="active">
-                        <a class="smooth-menu" href="#home">Inicio</a>
-                      </li>
-                      <li>
-                        <a class="smooth-menu" href="#about">Acerca de mi</a>
-                      </li>
-                      <li>
-                        <a class="smooth-menu" href="#education">Educación</a>
-                      </li>
-                      <li>
-                        <a class="smooth-menu" href="#portfolio">Portafolio</a>
-                      </li>
-                      <li>
-                        <a class="smooth-menu" href="#resume">Experiencia</a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
+  <header class="nav-area navbar-fixed-top">
+    <div class="container">
+      <div class="row">
+        <!--main menu starts-->
 
-          <!--main menu ends-->
-        </div>
-      </div>
-    </header>
-
-    <!--Navigation area ends-->
-
-    <!--Banner area starts-->
-
-    <div class="banner-area" id="home">
-      <div id="particles-js"></div>
-      <div class="banner-table">
-        <div class="banner-table-cell">
-          <div class="welcome-text">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 col-xs-12">
-                  <section class="intro animate-scale">
-                    <div class="img-area">
-                      <img src="images/home/1.png" alt="" />
-                    </div>
-
-                    <h3>Homero Resendiz</h3>
-
-                    <h1>
-                      <span>
-                        <b>Desarrollador</b>
-                      </span>
-                    </h1>
-
-                    <div class="social-icon">
-                      <ul>
-                        <li>
-                          <a
-                            href="https://www.facebook.com/homeroresendizg/"
-                            target="_blank"
-                            title="Facebook"
-                            ><i class="fa fa-facebook"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://m.me/homeroresendizg/"
-                            target="_blank"
-                            title="Messenger"
-                            ><i class="fab fa-facebook-messenger"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.instagram.com/homeroresendizg/"
-                            target="_blank"
-                            title="Instagram"
-                            ><i class="fa fa-instagram"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://github.com/homeroresendizg/"
-                            target="_blank"
-                            title="GitHub"
-                            ><i class="fa fa-github"></i
-                          ></a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.linkedin.com/in/homeroresendizg/"
-                            target="_blank"
-                            title="LinkedIn"
-                            ><i class="fa fa-linkedin"></i
-                          ></a>
-                        </li>
-                      </ul>
-                    </div>
-                  </section>
-
-                  <div class="clearfix"></div>
-
-                  <a class="mouse-scroll hidden-xs dadada" href="#about">
-                    <span class="mouse">
-                      <span class="mouse-movement"></span>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--Banner area ends-->
-
-    <!--About area starts-->
-
-    <div class="about-area section-padding" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <div class="stack">
-              <img src="images/about/CV_Homero.jpg" alt="about image" />
-            </div>
-          </div>
-          <div class="col-md-7 col-md-offset-1 col-sm-12">
-            <div class="about-right">
-              <h2>Mi perfil</h2>
-              <p>
-                <span>Homero Francisco Resendiz Garcia</span>, desarrollador y
-                estudiante de la carrera de Ingeniero en Desarrollo y Gestión de
-                Software.
-              </p>
-              <div data-nosnippet>
-                <p>
-                  Experiencia en proyectos de desarrollo web usando Laravel y
-                  ASP.NET, así como en proyectos de iOS y Android usando
-                  Flutter.
-                </p>
+        <div class="col-md-12">
+          <div class="main-menu">
+            <div class="navbar navbar-cus">
+              <div class="navbar-header">
+                <a href="/" class="navbar-brand"><span class="logo">Homero</span></a>
+                <!--change logo name-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
               </div>
 
-              <div class="row">
-                <div class="col-sm-6">
-                  <ul class="about-list">
-                    <li>
-                      <span class="title">Nombre</span>
-                      <span class="value"
-                        >Homero Francisco Resendiz Garcia</span
-                      >
+              <div class="navbar-collapse collapse">
+                <nav>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                      <a class="smooth-menu" href="#home">Inicio</a>
                     </li>
                     <li>
-                      <span class="title">Edad</span>
-                      <span class="value">21 Años</span>
+                      <a class="smooth-menu" href="#about">Acerca de mi</a>
                     </li>
                     <li>
-                      <span class="title">Email</span>
-                      <span class="value">contacto@homeroresendiz.dev</span>
+                      <a class="smooth-menu" href="#services">Intereses</a>
+                    </li>
+                    <li>
+                      <a class="smooth-menu" href="#education">Educación</a>
+                    </li>
+                    <li>
+                      <a class="smooth-menu" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li>
+                      <a class="smooth-menu" href="#resume">Experiencia</a>
                     </li>
                   </ul>
-                </div>
-                <div class="col-sm-6">
-                  <ul class="about-list">
-                    <li>
-                      <span class="title">Número</span>
-                      <span class="value">(+52) 811 994 3103</span>
-                    </li>
-                    <li>
-                      <span class="title">Dirección</span>
-                      <span class="value">Reynosa, Tamaulipas México</span>
-                    </li>
-                    <li>
-                      <span class="title">Pasatiempos</span>
-                      <span class="value">Coding, Música</span>
-                    </li>
-                  </ul>
-                </div>
+                </nav>
               </div>
-
-              <a href="cv/CV_Homero.pdf" class="down-btn btn-a" download
-                >Descargar cv</a
-              >
-              <a href="cv/CV_Homero.pdf" target="_blank" class="down-btn btn-a"
-                >Visualizar cv</a
-              >
             </div>
           </div>
         </div>
+
+        <!--main menu ends-->
       </div>
     </div>
+  </header>
 
-    <!--About area ends-->
+  <!--Navigation area ends-->
 
-    <!--Education area starts-->
+  <!--Banner area starts-->
 
-    <div
-      id="education"
-      class="experience-area section-padding"
-      style="background: #f8f8f8"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h2>Educación</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="resumes">
-              <li class="resume-item expr">
-                <h3>Ingeniería en Desarrollo y Gestión de Software</h3>
-                <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
-                <h5>2021 - Presente</h5>
-                <p>Ingeniero en Desarrollo y Gestión de Software</p>
-                <br /><br />
-              </li>
-              <li class="resume-item expr">
-                <h3>Bachillerato Tecnológico en Electrónica</h3>
-                <h4>Instituto Tamaulipeco de Capacitación para el Empleo</h4>
-                <h5>2014 - 2017</h5>
-                <p>Técnico en Electrónica</p>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-6">
-            <ul class="resumes">
-              <li class="resume-item expr">
-                <h3>
-                  TSU en Tecnologías de la Información Área Desarrollo de
-                  Software Multiplataforma
-                </h3>
-                <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
-                <h5>2018 - 2020</h5>
-                <p>
-                  Técnico Superior Universitario en Tecnologías de la
-                  Información Área Desarrollo de Software Multiplataforma
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--Education area ends-->
-
-    <!--Portfolio area starts-->
-
-    <div id="portfolio" class="portfolio-area section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h2><span>Portafolio</span></h2>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio-content">
-        <div class="port-nav">
+  <div class="banner-area" id="home">
+    <div id="particles-js"></div>
+    <div class="banner-table">
+      <div class="banner-table-cell">
+        <div class="welcome-text">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12">
-                <ul class="port-nav-list">
-                  <li><a class="img-filter active" data-filter="*">All</a></li>
-                  <li><a class="img-filter" data-filter=".c">C#</a></li>
-                  <li><a class="img-filter" data-filter=".php">PHP</a></li>
+              <div class="col-md-12 col-xs-12">
+                <section class="intro animate-scale">
+                  <div class="img-area">
+                    <img src="images/home/1.png" alt="" />
+                  </div>
+
+                  <h3>Homero Resendiz</h3>
+
+                  <h1>
+                    <span>
+                      <b>Desarrollador</b>
+                    </span>
+                  </h1>
+
+                  <div class="social-icon">
+                    <ul>
+                      <li>
+                        <a href="https://www.facebook.com/homeroresendizg/" target="_blank" title="Facebook"><i
+                            class="fa fa-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://m.me/homeroresendizg/" target="_blank" title="Messenger"><i
+                            class="fab fa-facebook-messenger"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/homeroresendizg/" target="_blank" title="Instagram"><i
+                            class="fa fa-instagram"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/homeroresendizg/" target="_blank" title="GitHub"><i
+                            class="fa fa-github"></i></a>
+                      </li>
+                      <li>
+                        <a href="https://www.linkedin.com/in/homeroresendizg/" target="_blank" title="LinkedIn"><i
+                            class="fa fa-linkedin"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+
+                <div class="clearfix"></div>
+
+                <a class="mouse-scroll hidden-xs dadada" href="#about">
+                  <span class="mouse">
+                    <span class="mouse-movement"></span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Banner area ends-->
+
+  <!--About area starts-->
+
+  <div class="about-area section-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="stack">
+            <img src="images/about/CV_Homero.jpg" alt="about image" />
+          </div>
+        </div>
+        <div class="col-md-7 col-md-offset-1 col-sm-12">
+          <div class="about-right">
+            <h2>Mi perfil</h2>
+            <p>
+              <span>Homero Francisco Resendiz Garcia</span>, desarrollador y
+              estudiante de la carrera de Ingeniero en Desarrollo y Gestión de
+              Software.
+            </p>
+            <div data-nosnippet>
+              <p>
+                Experiencia en proyectos de desarrollo web usando Laravel y
+                ASP.NET, así como en proyectos de iOS y Android usando
+                Flutter.
+              </p>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6">
+                <ul class="about-list">
+                  <li>
+                    <span class="title">Nombre</span>
+                    <span class="value">Homero Francisco Resendiz Garcia</span>
+                  </li>
+                  <li>
+                    <span class="title">Edad</span>
+                    <span class="value">21 Años</span>
+                  </li>
+                  <li>
+                    <span class="title">Email</span>
+                    <span class="value">contacto@homeroresendiz.dev</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="about-list">
+                  <li>
+                    <span class="title">Número</span>
+                    <span class="value">(+52) 811 994 3103</span>
+                  </li>
+                  <li>
+                    <span class="title">Dirección</span>
+                    <span class="value">Reynosa, Tamaulipas México</span>
+                  </li>
+                  <li>
+                    <span class="title">Pasatiempos</span>
+                    <span class="value">Coding, Música</span>
+                  </li>
                 </ul>
               </div>
             </div>
+
+            <a href="cv/CV_Homero.pdf" class="down-btn btn-a" download>Descargar cv</a>
+            <a href="cv/CV_Homero.pdf" target="_blank" class="down-btn btn-a">Visualizar cv</a>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--About area ends-->
+
+  <!--Interes area starts-->
+
+  <div class="services-area section-padding" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Áreas de Interés</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 service">
+          <div class="service-box">
+            <span class="after"></span>
+            <span class="before"></span>
+            <div class="service-icon">
+              <i class="icon-compass"></i>
+            </div>
+
+            <div class="service-content">
+              <h4>Data Science</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 service">
+          <div class="service-box">
+            <span class="after"></span>
+            <span class="before"></span>
+            <div class="service-icon">
+              <i class="icon-aperture"></i>
+            </div>
+            <div class="service-content">
+              <h4>Web Development</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 service">
+          <div class="service-box">
+            <span class="after"></span>
+            <span class="before"></span>
+            <div class="service-icon">
+              <i class="icon-gears"></i>
+            </div>
+            <div class="service-content">
+              <h4>Machine Learning</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 service">
+          <div class="service-box">
+            <span class="after"></span>
+            <span class="before"></span>
+            <div class="service-icon">
+              <i class="icon-bargraph"></i>
+            </div>
+            <div class="service-content">
+              <h4>Data Analysis</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 service">
+          <div class="service-box">
+            <span class="after"></span>
+            <span class="before"></span>
+            <div class="service-icon">
+              <i class="icon-adjustments"></i>
+            </div>
+            <div class="service-content">
+              <h4>Business Intelligence</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 col-sm-6 service">
+          <div class="service-box">
+            <span class="after"></span>
+            <span class="before"></span>
+            <div class="service-icon">
+              <i class="icon-browser"></i>
+            </div>
+            <div class="service-content">
+              <h4>App Development</h4>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!--Interes area ends-->
+
+  <!--Skills area starts-->
+
+  <div id="skills-bd" class="skills-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2><span>Habilidades</span></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="about-text-right">
+
+            <div id="skills">
+
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="col-md-12">
+
+                    <!-- skillbar -->
+                    <div class="skillbar" data-percent="95%">
+                      <!--edit percentage-->
+
+                      <h6 class="skillbar-title">HTML5</h6>
+                      <!--edit skills-->
+                      <h6 class="skillbar-percent">95%</h6>
+                      <!--edit percentage-->
+
+                      <div class="skillbar-bar">
+                        <div class="skillbar-child"></div>
+                      </div>
+
+                    </div>
+                    <!-- end skillbar -->
+
+                  </div>
+
+
+                  <div class="col-md-12">
+
+                    <!-- skillbar -->
+                    <div class="skillbar" data-percent="90%">
+                      <!--edit percentage-->
+
+                      <h6 class="skillbar-title">CSS3</h6>
+                      <!--edit skills-->
+                      <h6 class="skillbar-percent">90%</h6>
+                      <!--edit percentage-->
+
+                      <div class="skillbar-bar">
+                        <div class="skillbar-child"></div>
+                      </div>
+
+                    </div>
+                    <!-- end skillbar -->
+
+                  </div>
+
+
+                  <div class="col-md-12">
+
+                    <!-- skillbar -->
+                    <div class="skillbar" data-percent="90%">
+                      <!--edit percentage-->
+
+                      <h6 class="skillbar-title">C#</h6>
+                      <!--edit skills-->
+                      <h6 class="skillbar-percent">90%</h6>
+                      <!--edit percentage-->
+
+                      <div class="skillbar-bar">
+                        <div class="skillbar-child"></div>
+                      </div>
+
+                    </div>
+                    <!-- end skillbar -->
+
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="col-md-12">
+
+                    <!-- skillbar -->
+                    <div class="skillbar" data-percent="85%">
+                      <!--edit percentage-->
+
+                      <h6 class="skillbar-title">PHP</h6>
+                      <!--edit skills-->
+                      <h6 class="skillbar-percent">85%</h6>
+                      <!--edit percentage-->
+
+                      <div class="skillbar-bar">
+                        <div class="skillbar-child"></div>
+                      </div>
+
+                    </div>
+                    <!-- end skillbar -->
+
+                  </div>
+
+
+                  <div class="col-md-12">
+
+                    <!-- skillbar -->
+                    <div class="skillbar" data-percent="75%">
+                      <!--edit percentage-->
+
+                      <h6 class="skillbar-title">MySQL</h6>
+                      <!--edit skills-->
+                      <h6 class="skillbar-percent">75%</h6>
+                      <!--edit percentage-->
+
+                      <div class="skillbar-bar">
+                        <div class="skillbar-child"></div>
+                      </div>
+
+                    </div>
+                    <!-- end skillbar -->
+
+                  </div>
+
+
+                  <div class="col-md-12">
+
+                    <!-- skillbar -->
+                    <div class="skillbar" data-percent="75%">
+                      <!--edit percentage-->
+
+                      <h6 class="skillbar-title">SQL Server</h6>
+                      <!--edit skills-->
+                      <h6 class="skillbar-percent">75%</h6>
+                      <!--edit percentage-->
+
+                      <div class="skillbar-bar">
+                        <div class="skillbar-child"></div>
+                      </div>
+
+                    </div>
+                    <!-- end skillbar -->
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Skills area ends-->
+
+  <!--Education area starts-->
+
+  <div id="education" class="experience-area section-padding" style="background: #f8f8f8">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Educación</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="resumes">
+            <li class="resume-item expr">
+              <h3>Ingeniería en Desarrollo y Gestión de Software</h3>
+              <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
+              <h5>2021 - Presente</h5>
+              <p>Ingeniero en Desarrollo y Gestión de Software</p>
+              <br /><br />
+            </li>
+            <li class="resume-item expr">
+              <h3>
+                TSU en Tecnologías de la Información Área Desarrollo de
+                Software Multiplataforma
+              </h3>
+              <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
+              <h5>2018 - 2020</h5>
+              <p>
+                Técnico Superior Universitario en Tecnologías de la
+                Información Área Desarrollo de Software Multiplataforma
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <ul class="resumes">
+            <li class="resume-item expr">
+              <h3>Bachillerato Tecnológico en Electrónica</h3>
+              <h4>Instituto Tamaulipeco de Capacitación para el Empleo</h4>
+              <h5>2014 - 2017</h5>
+              <p>Técnico en Electrónica</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Education area ends-->
+
+  <!--Portfolio area starts-->
+
+  <div id="portfolio" class="portfolio-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2><span>Portafolio</span></h2>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-content">
+      <div class="port-nav">
         <div class="container">
-          <div
-            class="row port-items"
-            id="img-filter"
-            style="position: relative; height: 570px"
-          >
-            <div
-              class="col-md-4 col-sm-6 col-xs-12 single-port c"
-              style="position: absolute; left: 0px; top: 0px"
-            >
-              <div class="project-item">
-                <a href="images/port/1.jpg" class="zoom1">
-                  <!--edit image-->
-                  <img src="images/port/1.jpg" alt="portfolio image" />
-                  <!--edit image-->
-                  <div class="overlay">
-                    <div class="overlay-inner">
-                      <h4>
-                        Aplicación de IoT para rastrear datos ambientales a lo
-                        largo del tiempo
-                      </h4>
-                      <p>C#, Arduino, MSSQL</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div
-              class="col-md-4 col-sm-6 col-xs-12 single-port php"
-              style="position: absolute; left: 380px; top: 0px"
-            >
-              <div class="project-item">
-                <a href="images/port/2.jpg" class="zoom1">
-                  <!--edit image-->
-                  <img src="images/port/2.jpg" alt="portfolio image" />
-                  <!--edit image-->
-                  <div class="overlay">
-                    <div class="overlay-inner">
-                      <h4>
-                        Aplicación web para el seguimiento de requisiciones de
-                        compras
-                      </h4>
-                      <p>PHP, MySQL</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div
-              class="col-md-4 col-sm-6 col-xs-12 single-port c"
-              style="position: absolute; left: 760px; top: 0px"
-            >
-              <div class="project-item">
-                <a href="images/port/3.jpg" class="zoom1">
-                  <img src="images/port/3.jpg" alt="portfolio image" />
-                  <!--edit image-->
-                  <div class="overlay">
-                    <div class="overlay-inner">
-                      <h4>
-                        Aplicación web para el control de ordenes de trabajo
-                      </h4>
-                      <p>C#, MSSQL</p>
-                    </div>
-                  </div>
-                </a>
-              </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="port-nav-list">
+                <li><a class="img-filter active" data-filter="*">All</a></li>
+                <li><a class="img-filter" data-filter=".c">C#</a></li>
+                <li><a class="img-filter" data-filter=".php">PHP</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <!--Portfolio area ends-->
-
-    <!--Experience area starts-->
-
-    <div id="resume" class="experience-area section-padding">
       <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h2>Experiencia</h2>
+        <div class="row port-items" id="img-filter" style="position: relative; height: 570px">
+          <div class="col-md-4 col-sm-6 col-xs-12 single-port c" style="position: absolute; left: 0px; top: 0px">
+            <div class="project-item">
+              <a href="images/port/1.jpg" class="zoom1">
+                <!--edit image-->
+                <img src="images/port/1.jpg" alt="portfolio image" />
+                <!--edit image-->
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <h4>
+                      Aplicación de IoT para rastrear datos ambientales a lo
+                      largo del tiempo
+                    </h4>
+                    <p>C#, Arduino, MSSQL</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="resumes">
-              <li class="resume-item expr">
-                <h3>IT Development Intern</h3>
-                <h4>BBB Industries de México</h4>
-                <h5>Marzo 2021 - Presente</h5>
-                <p>Desarrollo de aplicaciones con PHP, MySQL, HTML5</p>
-                <p>Mantenimiento y depuración de aplicaciones</p>
-                <p>Manejo de bases de datos ORACLE, MySQL, SQL Server</p>
-              </li>
-              <li class="resume-item expr">
-                <h3>Desarrollo web</h3>
-                <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
-                <h5>2020</h5>
-                <p>
-                  Desarrollo de aplicación web para la creación organigramas
-                  empleando ASP.NET para el departamento de Recursos Humanos de
-                  la Universidad Tecnológica de Tamaulipas Norte
-                </p>
-              </li>
-            </ul>
+          <div class="col-md-4 col-sm-6 col-xs-12 single-port php" style="position: absolute; left: 380px; top: 0px">
+            <div class="project-item">
+              <a href="images/port/2.jpg" class="zoom1">
+                <!--edit image-->
+                <img src="images/port/2.jpg" alt="portfolio image" />
+                <!--edit image-->
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <h4>
+                      Aplicación web para el seguimiento de requisiciones de
+                      compras
+                    </h4>
+                    <p>PHP, MySQL</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-
-          <div class="col-md-6">
-            <ul class="resumes">
-              <li class="resume-item expr">
-                <h3>Desarrollo web</h3>
-                <h4><br /></h4>
-                <h5>2021</h5>
-                <p>Creador del sitio web homeroresendiz.dev</p>
-                <br /><br />
-              </li>
-              <li class="resume-item expr">
-                <h3>Desarrollo web</h3>
-                <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
-                <h5>2018</h5>
-                <p>
-                  Desarrollo de aplicación web para el control de ordenes de
-                  trabajo empleando ASP.NET para el departamento de
-                  Mantenimiento e Infraestructura de la Universidad Tecnológica
-                  de Tamaulipas Norte
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--Experience area ends-->
-
-    <!--Footer Area Starts-->
-
-    <div class="footer-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-            <p>
-              &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              Todos los derechos reservados -
-              <a href="https://homeroresendiz.dev" target="_blank"
-                >Homero Francisco Resendiz Garcia</a
-              >
-            </p>
+          <div class="col-md-4 col-sm-6 col-xs-12 single-port c" style="position: absolute; left: 760px; top: 0px">
+            <div class="project-item">
+              <a href="images/port/3.jpg" class="zoom1">
+                <img src="images/port/3.jpg" alt="portfolio image" />
+                <!--edit image-->
+                <div class="overlay">
+                  <div class="overlay-inner">
+                    <h4>
+                      Aplicación web para el control de ordenes de trabajo
+                    </h4>
+                    <p>C#, MSSQL</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--Footer Area Ends-->
+  <!--Portfolio area ends-->
 
-    <!--Latest version JQuery-->
-    <script src="js/jquery-3.2.1.min.js"></script>
+  <!--Experience area starts-->
 
-    <!--Bootstrap js-->
-    <script src="js/bootstrap.min.js"></script>
+  <div id="resume" class="experience-area section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Experiencia</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="resumes">
+            <li class="resume-item expr">
+              <h3>IT Development Intern</h3>
+              <h4>BBB Industries de México</h4>
+              <h5>Marzo 2021 - Presente</h5>
+              <p>Desarrollo de aplicaciones con PHP, MySQL, HTML5</p>
+              <p>Mantenimiento y depuración de aplicaciones</p>
+              <p>Manejo de bases de datos ORACLE, MySQL, SQL Server</p>
+            </li>
+            <li class="resume-item expr">
+              <h3>Desarrollo web</h3>
+              <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
+              <h5>2020</h5>
+              <p>
+                Desarrollo de aplicación web para la creación organigramas
+                empleando ASP.NET para el departamento de Recursos Humanos de
+                la Universidad Tecnológica de Tamaulipas Norte
+              </p>
+            </li>
+          </ul>
+        </div>
 
-    <!--Animated headline js-->
-    <script src="js/jquery.animatedheadline.js"></script>
+        <div class="col-md-6">
+          <ul class="resumes">
+            <li class="resume-item expr">
+              <h3>Desarrollo web</h3>
+              <h4>Universidad Tecnológica de Tamaulipas Norte</h4>
+              <h5>2018</h5>
+              <p>
+                Desarrollo de aplicación web para el control de ordenes de
+                trabajo empleando ASP.NET para el departamento de
+                Mantenimiento e Infraestructura de la Universidad Tecnológica
+                de Tamaulipas Norte
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!--Magnific popup js-->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/custom.js"></script>
+  <!--Experience area ends-->
 
-    <!--Validator js-->
-    <script src="js/jquery.waypoints.js"></script>
+  <!--Footer Area Starts-->
 
-    <!--Counter up js-->
-    <script src="js/jquery.counterup.min.js"></script>
+  <div class="footer-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+          <p>
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Todos los derechos reservados -
+            <a href="https://homeroresendiz.dev" target="_blank">Homero Francisco Resendiz Garcia</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <!--imagesloaded js-->
-    <script src="js/imagesloaded.min.js"></script>
+  <!--Footer Area Ends-->
 
-    <!--isotope js-->
-    <script src="js/isotope.pkgd.min.js"></script>
+  <!--Latest version JQuery-->
+  <script src="js/jquery-3.2.1.min.js"></script>
 
-    <!--Owl Carousel js-->
-    <script src="js/owl.carousel.js"></script>
+  <!--Bootstrap js-->
+  <script src="js/bootstrap.min.js"></script>
 
-    <!--Validator js-->
-    <script src="js/validator.js"></script>
+  <!--Animated headline js-->
+  <script src="js/jquery.animatedheadline.js"></script>
 
-    <!--Contact js-->
-    <script src="js/contact.js"></script>
+  <!--Magnific popup js-->
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/custom.js"></script>
 
-    <!--particles js-->
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
+  <!--Validator js-->
+  <script src="js/jquery.waypoints.js"></script>
 
-    <!--Main js-->
-    <script src="js/main.js"></script>
-  </body>
+  <!--Counter up js-->
+  <script src="js/jquery.counterup.min.js"></script>
+
+  <!--imagesloaded js-->
+  <script src="js/imagesloaded.min.js"></script>
+
+  <!--isotope js-->
+  <script src="js/isotope.pkgd.min.js"></script>
+
+  <!--Owl Carousel js-->
+  <script src="js/owl.carousel.js"></script>
+
+  <!--Validator js-->
+  <script src="js/validator.js"></script>
+
+  <!--Contact js-->
+  <script src="js/contact.js"></script>
+
+  <!--particles js-->
+  <script src="js/particles.js"></script>
+  <script src="js/app.js"></script>
+
+  <!--Main js-->
+  <script src="js/main.js"></script>
+</body>
+
 </html>
